@@ -17,6 +17,11 @@
  * - Jeśli nie odebraliśmy dziecka przed zakończeniem działania programu,
  *      zostanie ono albo usunięte przez system operacyjny, albo odebrane przez proces init,
  *      gdy zostanie mu przypisane nowego rodzica.
+ *
+ * Aby zrobić proces adoptowany:
+ * - Uruchamiamy proces i stopujemy go na określony czas.
+ * - Staramy się jak najszybciej pozbyć się procesu głównego probramu,
+ *      tak aby powstały proces został przejęty przez proces macierzysty.
  */
 int main() {
     printf("Proces główny programu: %d\n", getpid());
@@ -31,7 +36,8 @@ int main() {
     // czekamy 10 sekund, aby wymusić czekanie na dalsze akcje
     sleep(10);
 
-    if (0 == fork()) {
+    const pid_t adopted_pid = fork();
+    if (0 == adopted_pid) {
         // Proces adoptowany to taki który nie zostanie obsłużony przez proces główny,
         // ponieważ on nie istnieje — przeskakuje na proces macierzysty (pid: 1)
         printf("proces adoptowany: %d\n", getpid());

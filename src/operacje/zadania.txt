@@ -1,0 +1,7 @@
+### Operacje:
+
+1) Napisz program, który utworzy plik o nazwie „Lorem” i zapisze w nim 15 lini tekstu lorem ipsum.
+
+2) Napisz program, który skopiuje zawartość pliku „Lorem” do innego pliku.
+
+3) Napisz program zliczający słowa w pliku.

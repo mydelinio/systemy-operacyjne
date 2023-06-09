@@ -1,0 +1,15 @@
+### Procesy:
+
+1) Napisz program tworzący dwa procesy. Każdy ze stworzonych procesów powinien utworzyć proces – potomka.
+ Należy wyświetlać identyfikatory procesów rodziców i potomków po każdym wywołaniu funkcji fork.
+
+2) Napisz program, którego rezultatem będzie wydruk zawartości bieżącego katalogu poprzedzony
+ napisem „Początek” a zakończony napisem „Koniec”
+
+3) Napisz program, którego wynikiem jest sformatowana lista procesów:
+--------początek listy-------------
+proces 1
+proces2 .....
+--------koniec listy---------------
+
+4) Napisz program tworzący równocześnie trzy procesy zombi.

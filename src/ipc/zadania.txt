@@ -1,0 +1,8 @@
+### IPC(pamięć współdzielona):
+
+1) Napisz dwa programy, w których jeden zapisuje do pamięci współdzielonej liczbę z zakresu od 1 do 20,
+ a drugi z niej odczytuje i wyświetla napis wskazany przez użytkownika, tyle razy ile wynosi liczba z pamięci.
+
+2) Napisz dwa programy wysyłające do siebie komunikaty. W przypadku odebrania komunikatu
+„Bye” należy odłączyć blok pamięci współdzielonej od przestrzeni adresowej procesu i usunąć
+blok pamięci współdzielonej.

@@ -1,0 +1,10 @@
+### Wątki:
+
+1) Stwórz 2 wątki, które będą jako swój parametr pobierały dowolną liczbę typu int i
+ zwracały jej podwojoną wartość.
+
+2) Napisz program tworzący 2 wątki, które zapisują odpowiednio wartości 1
+ (pierwszy wątek) i 2 (drugi wątek) do tablicy o zadanym przez użytkownika rozmiarze.
+ Zsynchronizuj pracę wątków tak, aby pierwsza połowa tablicy była zapisana tylko wartościami 1,
+ a druga tylko wartościami 2.
+

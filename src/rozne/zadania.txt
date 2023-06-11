@@ -1,0 +1,12 @@
+### Różne
+
+1) Napisz program, który utworzy 3 procesy potomne. Poniższy schemat przedstawia strukturę
+potomków oraz ich zadania. Wszelkie działania należy wykonać za pomocą poznanych funkcji.
+
+2) Napisz program, który utworzy dwóch potomków. Jeden z nich wyświetli ścieżkę
+ bieżącego katalogu, drugi wyświetli listę procesów. Zadanie należy wykonać z użyciem funkcji exec.
+
+3) Napisz 2 programy. Pierwszy przesyła w łączu nazwanym tekst pobrany przez użytkownika.
+Potomek drugiego programu pobiera ten tekst i za pomocą pamięci współdzielonej przekazuje
+procesowi macierzystemu. Proces macierzysty zamienia kolejność znaków "abcd->dcab" i wysyła do
+pierwszego programu łączem nazwanym.
